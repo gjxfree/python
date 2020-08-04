@@ -6,7 +6,5 @@
 
 > 登录[python官网](https://www.python.org/) (https://www.python.org/)
 >
-> ![image-2.1](img\img-2.1.png)
->
-> 
+> ![image-2.1](~/img/img-2.1.png) 
 
