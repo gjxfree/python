@@ -1,52 +1,25 @@
-# 利用海归画图，画四个矩形
+#使用字符串复制，用计算机打印出“爱你一万遍”，打印100次
+import time
+start = time.time()
+word = '爱你一万遍'
+words = word * 10000000
+end = time.time()
+# print(words)
+print(end - start)
 
-import turtle
+start = time.time()
+temp = []
+for i in range(10000000):
+    temp.append(word)
+words = ''.join(temp)
+end = time.time()
+print(end - start)
 
-turtle.color("red")
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
+start = time.time()
+words = ''
+for i in range(10000000):
+    words += word
+end = time.time()
+print(end - start)
 
-turtle.penup()
-turtle.goto(150,0)
-turtle.pendown()
 
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-
-turtle.penup()
-turtle.goto(0,150)
-turtle.pendown()
-
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-
-turtle.penup()
-turtle.goto(150,150)
-turtle.pendown()
-
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)

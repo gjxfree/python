@@ -1,34 +1,7 @@
-# 利用海龟画图 绘制一个奥运五环
-import turtle
+# 从控制台输入用户的月薪，输出用户的年薪
+month = input('请输入月薪金额：')
 
-turtle.width(10)
+year = float(month) * 12
 
-turtle.color("blue")
-turtle.circle(50)
-
-turtle.penup()
-turtle.goto(60,-50)
-turtle.color("yellow")
-turtle.pendown()
-turtle.circle(50)
-
-turtle.penup()
-turtle.goto(120,0)
-turtle.color("black")
-turtle.pendown()
-turtle.circle(50)
-
-turtle.penup()
-turtle.goto(180,-50)
-turtle.color("green")
-turtle.pendown()
-turtle.circle(50)
-
-turtle.penup()
-turtle.goto(240,0)
-turtle.color("red")
-turtle.pendown()
-turtle.circle(50)
-
-
+print('年薪是',year)
 
